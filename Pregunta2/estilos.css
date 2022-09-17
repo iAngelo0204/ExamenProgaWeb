@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ 
+section{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+ 
+header{
+    display:flex;
+    padding: 20px;
+    background-color: #12AAFF;
+ 
+}
+.headermenu a {
+    color: white;
+}
+.tittle{
+    flex:3;
+    color: white;
+    font-size: 1.5rem;
+    margin: auto;
+}
+ 
+
+.headermenu{
+    margin: auto;
+    text-align: right;
+    flex:1;
+    color: white;
+
+}
+ 
+ 
+a{
+    color:black;
+}
+ 
+aside{
+    flex:1;
+    background-color: #12AAFF;
+    flex-direction: column;
+  
+}
+
+aside ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 1px;
+    color: white;
+}
+
+aside ul a{
+    color: white;
+}
+
+article
+{
+    flex:3;
+    background-color: #E8E8E8;
+    display: flex;
+}
+
+.article1{
+    flex:2;
+    background-color: white;
+}
+.article2{
+    flex:2;
+    background-color: white;
+}
+.article3{
+    flex:2;
+    background-color: white;
+}
+
+.article4{
+    flex:2;
+    background-color: white;
+}
+ 
+ 
+footer{
+    display: flex;
+    background-color: #636363;
+}
+.footer1{
+    margin: auto;
+    font-size: 1.5rem;
+    flex:2;
+    color: white;
+}
+ 
+.footer2{
+    text-align: right;
+    flex:2;
+}
+
+.footer2 a
+{
+    color: white;
+}
+.footer2 ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+    display: inline;
+
+}
+/*Cuando ponemos flex:1 y flex:3 decimos que en un total de 4 espacios
+uno tiene una parte y el otro tiene el triple de esa parte*/
+ 

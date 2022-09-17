@@ -1,0 +1,13 @@
+thead{  
+    background-color: skyblue;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid;
+
+}
+th, td
+{  
+    text-align: center;
+    border: 1px solid;
+
+}
